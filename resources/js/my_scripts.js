@@ -35,12 +35,10 @@ var players = [{name:"John Doe", img: "../resources/img/player1.jpg", alt:"Image
 function viewStudentStats(id, toggle){
 	var id = document.getElementById(id);
 	if(toggle == 0) {
-		console.log(id);
 		id.style.visibility = 'hidden';
 		id.style.height = '0';
 	}
 	else if(toggle == 1) {
-		console.log(id);
 		id.style.visibility = 'visible';
 		id.style.height = 'auto';
 	}
